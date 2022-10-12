@@ -53,16 +53,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contact.cs" />
-    <Compile Include="Context.cs" />
+    <Compile Include="Controller\ContactController.cs" />
+    <Compile Include="Controller\IContactController.cs" />
+    <Compile Include="Model\Contact.cs" />
+    <Compile Include="Context\Context.cs" />
     <Compile Include="Migrations\202210111756225_initialmigrate.cs" />
     <Compile Include="Migrations\202210111756225_initialmigrate.designer.cs">
       <DependentUpon>202210111756225_initialmigrate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Service\ContactService.cs" />
+    <Compile Include="View\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Telephone.cs" />
+    <Compile Include="Model\Telephone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
