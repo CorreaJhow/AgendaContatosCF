@@ -1,5 +1,5 @@
 # Agenda de Contatos
-## Projeto de agenda de contatos (telefonicos simples), utilizando SQL Server, Entity Framework e padrão MVC.
+## Projeto de agenda de contatos telefonicos. Utilizando SQL Server, Entity Framework e padrão MVC.
 ### Unicos Requisitos: 
 - 1° Agenda nao pode aceitar nomes iguais (duplicação de nomes).
 - 2° Agenda pode aceitar dois telefones (Telephone), porém, o telefone nao pode estar na mesma classe (Contact). 
