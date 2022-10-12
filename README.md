@@ -12,4 +12,4 @@
 - Consultar Todos Contatos
 - Consultar Contato Especifico
 - Deletar Contatos
-### Banco de Dados [Code Firts]. Criado a partir do Visual Studio. 
+### Banco de Dados [Code Firts]. 
